@@ -46,8 +46,8 @@
           @enderror
         </div>
         <div class="mb-4">
-          <label for="repeat_password" class="sr-only">Repeat your password</label>
-          <input type="password" name="repeat_password" id="repeat_password" placeholder="Repeat your password..." class="bg-gray-100 border-2 w-full p-4 rounded-lg @error('repeat password') border-red-500 @enderror" value="">
+          <label for="password_confirmation" class="sr-only">Repeat your password</label>
+          <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Repeat your password..." class="bg-gray-100 border-2 w-full p-4 rounded-lg @error('repeat password') border-red-500 @enderror" value="">
 
           @error('repeat password')
             <div class="text-red-500 mt-2 text-sm">
