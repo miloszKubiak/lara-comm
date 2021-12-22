@@ -18,8 +18,8 @@
             @enderror
           </div>
 
-          <div>
-            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded font-medium">Post</button>
+          <div class="flex justify-center">
+            <button type="submit" class="bg-purple-600 hover:bg-purple-900 text-white px-4 py-2 rounded font-medium">Post</button>
           </div>
         </form>
       @endauth
@@ -31,7 +31,7 @@
 
         {{ $posts->links() }}
       @else
-        <p>There are no posts</p>
+        <p class="flex justify-center font-extrabold font-mono text-3xl">There are no posts<i class="text-4xl ml-3 far fa-sad-cry"></i></p>
       @endif
     </div>
   </div>
