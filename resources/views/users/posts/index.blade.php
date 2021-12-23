@@ -5,7 +5,8 @@
     <div class="w-8/12">
       <div class="p-6">
         <h1 class="text-4xl font-bold mb-2">{{ $user->name }}</h1>
-        <p>Posted {{ $posts->count() }} {{ Str::plural('post', $posts->count()) }} and received {{ $user->receivedLikes->count() }} likes</p>
+        <p class="text-lg">Stats:</p>
+        <p class="text-lg">Posted: {{ $posts->count() }} {{ Str::plural('post', $posts->count()) }} <br> Received: {{ $user->receivedLikes->count() }} likes</p>
       </div>
       <div class="bg-white p-6 rounded-lg">
         @if ($posts->count())

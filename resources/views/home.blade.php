@@ -1,11 +1,32 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="flex justify-center">
-    <p class="pl-10 font-extrabold font-mono text-3xl">Welcome to our messenger :)</p>
-    <div class="w-6/12 p-6 rounded-lg flex flex-row items-center color-purple-100">
-      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bilibili</title><path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373Z"/></svg>
-      <svg role="img" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg"><title>The Conversation</title><path d="M23.996 10.543c-.131-4.91-4.289-8.773-9.2-8.773H9.005a8.997 8.997 0 0 0-5.957 15.746L1.05 22.23l4.942-2.98c.95.36 1.964.524 3.012.524h6.024c5.04 0 9.099-4.156 8.969-9.23zm-8.937 5.958H9.07c-2.587 0-5.205-2.03-5.696-4.583a5.724 5.724 0 0 1 5.63-6.874h5.99c2.586 0 5.205 2.03 5.696 4.582.688 3.667-2.095 6.875-5.63 6.875z"/></svg>
+  <div class="flex flex-col justify-center items-center">
+    <h1 class="text-4xl font-bold"><i class="fab fa-slack text-green-300"></i> .slakk</h1>
+    <br>
+    <p class="p-7 text-2xl text-center font-semibold">This application is the best communicator. We have already been trusted by millions of customers! Add posts and tag the ones you like! Have fun :)</p>
+    <br>   
+  </div>
+  <div class="flex justify-around p-7 flex-wrap">
+    <div class="flex flex-col justify-center items-center p-5">
+      <i class="fab fa-stack-exchange text-9xl text-gray-300"></i>
+      <br>
+      <p class="font-semibold text-lg">Very Fast</p>
+    </div>
+    <div class="flex flex-col justify-center items-center p-5">
+      <i class="fas fa-users text-9xl text-red-300"></i>
+      <br>
+      <p class="font-semibold text-lg">Large community</p>
+    </div>
+    <div class="flex flex-col justify-center items-center p-5">
+      <i class="fas fa-eye text-9xl text-blue-300"></i>
+      <br>
+      <p class="font-semibold text-lg">Beauty UI</p>
+    </div>
+    <div class="flex flex-col justify-center items-center p-5">
+      <i class="fas fa-smile-beam text-9xl text-yellow-300"></i>
+      <br>
+      <p class="font-semibold text-lg">Satisfied customers</p>
     </div>
   </div>
 @endsection
